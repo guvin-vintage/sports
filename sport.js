@@ -1,0 +1,112 @@
+$(document).ready(function(){
+    $("#btn1").click(function(){
+        $(this).css({
+            "background-color":"lightblue"
+        })
+        $("#btn2").css({
+            "background":"transparent"
+        })
+        $("#btn3").css({
+            "background":"transparent"
+        })
+        $("#btn4").css({
+            "background":"transparent"
+        })
+        $("#btn5").css({
+            "background":"transparent"
+        })
+
+        $(".container").css({
+            "left":"0"
+        })
+    })
+    $("#btn2").click(function(){
+        $(this).css({
+            "background-color":"lightblue"
+        })
+        $("#btn1").css({
+            "background":"transparent"
+        })
+        $("#btn3").css({
+            "background":"transparent"
+        })
+        $("#btn4").css({
+            "background":"transparent"
+        })
+        $("#btn5").css({
+            "background":"transparent"
+        })
+
+        $(".container").css({
+            "left":"-100%"
+        })
+        
+
+
+
+    })
+    $("#btn3").click(function(){
+        $(this).css({
+            "background":"lightblue"
+        })
+        $("#btn1").css({
+            "background":"transparent"
+        })
+        $("#btn2").css({
+            "background":"transparent"
+        })
+        $("#btn4").css({
+            "background":"transparent"
+        })
+        $("#btn5").css({
+            "background":"transparent"
+        })
+        $(".container").css({
+            "left":"-200%"
+        })
+    })
+    $("#btn4").click(function(){
+        $(this).css({
+            "background":"lightblue"
+        })
+        $("#btn1").css({
+            "background":"transparent"
+        })
+        $("#btn2").css({
+            "background":"transparent"
+        })
+        $("#btn3").css({
+            "background":"transparent"
+        })
+        $("#btn5").css({
+            "background":"transparent"
+        })
+        $(".container").css({
+            "left":"-300%"
+        })
+    })
+    $("#btn5").click(function(){
+        $(this).css({
+            "background":"lightblue"
+        })
+        $("#btn1").css({
+            "background":"transparent"
+        })
+        $("#btn2").css({
+            "background":"transparent"
+        })
+        $("#btn3").css({
+            "background":"transparent"
+        })
+        $("#btn4").css({
+            "background":"transparent"
+        })
+       
+        $(".container").css({
+            "left":"-400%"
+        })
+    })
+   
+})
+
+

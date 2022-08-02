@@ -1,0 +1,271 @@
+*
+{
+   
+    box-sizing: border-box  ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main
+{
+    width: 90%;
+    margin:0 auto;
+    background-color: white;
+}
+body
+{
+    background-color: bisque;
+    
+}
+/*HEADER*/
+.ads-top 
+{
+    position: relative;
+}
+.user
+{
+    display:flex;
+    position: absolute;
+    right:0;
+    top:0;
+    
+}
+.user > a
+{
+    margin:10px
+}
+.user > div p
+{
+    margin: 10px;
+    display:inline-block;
+}
+
+.ads-top-picture
+{
+    width: 15%;
+    margin: auto auto;
+}
+.ads-top-picture > img
+{
+    width: 100%;
+
+}
+.ads-top > h3
+{
+    text-align: center;
+}
+
+.ads-content
+{
+    text-align: center;
+    color:white;
+    background-color: black;
+    padding: 1rem;
+}
+.header-button
+{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    color:white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+/*1st-CONTENT*/
+.first-contents
+{
+    display: flex;
+}
+.first-content-1
+{
+    width: 40%;
+    padding: 10px;
+}
+.first-content-1 > h1 
+{
+    font-size: 2.2rem;
+}
+.first-content-1 > p
+{
+    font-size: larger;
+}
+.first-content-1 ul 
+{
+    padding: 10px;
+    list-style-type:square;
+}
+.first-content-1 ul > li a
+{
+    color:black;
+}
+.first-content-1 ul > li a:hover 
+{
+    text-decoration: none;
+}
+
+
+.first-content-2
+{
+    width: 60%;
+}
+.first-content-2 > div
+{
+    width: 100%;
+}
+.first-content-2 > div > img 
+{
+    width: 100%;
+}
+
+.first-content1
+{
+    display:flex;
+    width: 70%;
+    padding: 10px;
+    border-right: 1px solid gray;
+
+}
+.first-content2
+{
+    width: 30%;
+    padding: 10px;
+}
+.first-content2 > div 
+{
+    width: 100%;
+}
+.first-content2 > div img 
+{
+    width: 100%;
+}
+/* SUBCONTENT*/
+.subcontents
+{
+    display:flex;
+    cursor: pointer;
+}
+.subcontent
+{
+    width: 25%;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+
+}
+.subcontent  div > div
+{
+    width: 100%;
+    margin:0 auto;
+
+}
+.subcontent  img
+{
+    width: 100%;
+    object-fit: cover;
+    max-height: 300px;
+
+}
+.subcontent > div
+{
+    padding: 10px;
+}
+.weather
+{
+    background-color:darkmagenta;
+    display:inline-block;
+    color:white;
+    font-size: 1rem;
+}
+.cost
+{
+    background-color: brown;
+    display:inline-block;
+    color: white;
+    font-size: 1rem;
+}
+/* ANOTHER SUB-CONTENT*/
+.second-content1
+{
+    width: 50%;
+    padding: 40px;
+}
+.second-content1 > iframe
+{
+    width: 100%;
+}
+.second-content2
+{
+    width: 50%;
+    padding: 10px;
+    border-right: 3px solid gray;
+    padding-bottom: 0;
+
+}
+.second-content2 > div 
+{
+    width: 100%;
+}
+.second-content2 > div img 
+{
+    width: 100%;
+}
+.second-contents
+{
+    display:flex;
+    align-items: center;
+}
+.second-content2 > h1 
+{
+    font-size: 2rem;
+    margin-top: 0;
+}
+/*SLIDER*/
+.father-containers
+{
+    background:linear-gradient(#222831,#393E46,#FFD369,#EEEEEE)
+}
+.containers
+{
+    width: 60%;
+    padding-top: 20px;
+}
+.slider-picture
+{
+    width: 20%;
+    float:left;
+}
+.slider-picture > img 
+{
+    width: 100%;
+    object-fit: cover;
+    max-height: 400px;
+    max-width:100%;
+    border-radius: 10px;
+
+
+}
+
+.container
+{
+    width: 500%;
+    position: relative;
+    transition: 1s ease;
+        
+
+}
+.containers
+{
+    overflow: hidden;
+    margin:0 auto;
+
+}
+.btns
+{
+    margin-left:21rem;
+    clear:left;
+    
+}
+.btns > button
+{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+    background: transparent;
+}
