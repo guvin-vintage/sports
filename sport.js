@@ -128,9 +128,9 @@ $(document).ready(function(){
     $("#othersports").hide();
     $(".menu a ").click(function() {
         event.preventDefault()
-        $(this).removeClass(".active")
+        $(".menu a").removeClass("active")
 
-        $(this).addClass(".active")
+        $(this).addClass("active")
         // xu ly content
         var tab = $(this).attr("href")
         $(".tab-item").hide()
