@@ -286,9 +286,24 @@ function init() {
 
     }
 
+   $(".first-contents").addClass("wow animate__bounceInLeft")
+   $(".third-contents").addClass("wow animate__bounceInLeft")
+   $(".second-contents").addClass("wow animate__bounceInLeft")
+   $(".subcontents").addClass("wow animate__bounceInLeft")
+   $(".father-containers").addClass("wow animate__bounceInLeft")
    
 
 
+    wow = new WOW(
+        {
+        boxClass:     'wow',      // default
+        animateClass: 'animate__animated', // default
+        offset:       0,          // default
+        mobile:       true,       // default
+        live:         true        // default
+      }
+      )
+      wow.init();
 
 
 }
