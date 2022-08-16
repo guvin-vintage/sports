@@ -33,6 +33,8 @@
                     <a id="logout" href="#" style="display:block;color:black"><i
                             class="fa-solid fa-right-from-bracket"></i></a>
                 </div>
+
+               
             </div>
             <div class="ads-contents">
                 <div class="ads-content">
@@ -56,6 +58,24 @@
 
 
             </ul>
+            <form class="search-boxes">
+                <div class="box">
+                    <label for="search"></label>
+                    <input list="list" id="search"  class="input" type="text" placeholder="Search something">
+                    <a style="color:black;"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <datalist id="list">
+                        <option value="World"></option>
+                        <option value="US"></option>
+                        <option value="Breaking News"></option>
+                        <option value="War"></option>
+                        <option value="Game"></option>
+                        <option value="Movies"></option>
+                        <option value="Trump"></option>
+        
+        
+                    </datalist>
+                </div>
+                </form>
 
         </section>
 
@@ -690,15 +710,16 @@
 
         </div>
 
-        <div class="login">
-            <h2>Member login</h2>
-            <button style="width:20px;position: absolute;right:2rem;top:1rem;background-color: red; height: 20px;"
-                class="exit"><i class="fa-solid fa-x"></i></button>
-            <input type="text" placeholder="user-name" id="user-name">
-            <input type="password" placeholder="password">
-            <button id="enter">Login</button>
-            <p id="thongbao" style="color:green">Login Successfully <i class="fa-solid fa-circle-check"></i></p>
-        </div>
+        <div class="logins">
+    <div class="login">
+        <h2>Member login</h2>
+        <button style="width:20px;position: absolute;right:2rem;top:1rem;background-color: red; height: 20px;" class="exit"><i class="fa-solid fa-x"></i></button>
+        <input type="text" placeholder="user-name" id="user-name">
+        <input type="password" placeholder="password" >
+        <button id="enter">Login</button> 
+        <p id="thongbao" style="color:green">Login Successfully <i class="fa-solid fa-circle-check"></i></p>
+    </div>
+</div>
 
 
         <footer>

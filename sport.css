@@ -15,7 +15,36 @@ body
     background-color: bisque;
     
 }
+/*SEARCH*/
+.search-boxes
+{
+   display:flex;
+   justify-content:right;
+}
+.box 
+{
+    height: 30px;
+    display:flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgb(0,0,0,0.3);
+}
+.box:hover .input 
+{
+    width: 200px;
+}
+.box .input 
+{
+    width: 0;
+    outline: none;
+    border: none;
+    transition: 0.8s ease;
+    background: transparent;
 
+}
 /*MENU*/
 .nav
 {
@@ -422,6 +451,12 @@ body
     text-align:inherit;
 }
 /* LOGIN*/
+.logins
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .login
 {
     width: 300px;
