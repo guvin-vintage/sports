@@ -286,11 +286,11 @@ function init() {
 
     }
 
-   $(".first-contents").addClass("wow animate__bounceInLeft")
-   $(".third-contents").addClass("wow animate__bounceInLeft")
-   $(".second-contents").addClass("wow animate__bounceInLeft")
-   $(".subcontents").addClass("wow animate__bounceInLeft")
-   $(".father-containers").addClass("wow animate__bounceInLeft")
+   $(".first-contents").addClass("wow animate__bounceIn")
+   $(".third-contents").addClass("wow animate__bounceIn")
+   $(".second-contents").addClass("wow animate__bounceIn")
+   $(".subcontents").addClass("wow animate__bounceIn")
+   $(".father-containers").addClass("wow animate__bounceIn")
    
 
 
