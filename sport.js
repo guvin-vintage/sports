@@ -1,7 +1,4 @@
-$(window).on('load', function (event) {
-    $('body').removeClass('preloading');
-    $('.load').delay(1000).fadeOut('fast');
-})
+
 $(document).ready(function(){
     $(".btn1").click(function(){
         $(this).css({
@@ -200,6 +197,17 @@ $(document).ready(function(){
              scrollTop:5000
          },1000)
      })
+
+
+           /*LOAD*/
+   window.addEventListener("load",function() {
+    var loader = document.querySelector(".loading")
+    this.setTimeout(function() {
+        setTimeout(function () {
+            loader.style="display:none;"
+        },1000)
+    },1000)
+  })
 })
 function checkMail()
 {
@@ -224,6 +232,8 @@ function checkMail()
             text.style.color="#ff0000";
 
         }   
+
+  
 }
 function init() {
 
@@ -345,6 +355,8 @@ function init() {
 
     }
   })
+
+   
 
 }
 
